@@ -1,0 +1,357 @@
+/*<style>
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Qwigley&family=Roboto:wght@100&family=Yesteryear&display=swap');
+</style>*/
+
+
+
+
+
+
+/*adapter la forme du body*/
+html,body{
+    box-sizing: border-box;
+    width:100%;
+    height:auto;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+/*style du container*/
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+/*gestion du header*/
+.header{
+    width:100%;
+    height:auto;
+    padding:3rem;
+    background-image: url("https://cdn.pixabay.com/photo/2013/05/12/18/55/balance-110850_1280.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    text-align:center;
+}
+
+/*gestion du titre H1*/
+h1{
+    font-family: 'Qwigley', cursive;
+    color:rgb(255, 255, 255);
+    font-size:3rem;
+    text-shadow:15px 15px 20px black;
+    text-transform:uppercase
+
+}
+
+/*gestion du titre H2*/
+h2{
+    font-family: 'Yesteryear', cursive; 
+    color:rgb(12, 226, 144);
+    font-size:2rem;
+    text-shadow:15px 15px 20px black;
+
+}
+h3{
+    text-decoration:underline;
+    font-style: italic;
+    text-shadow:10px 10px 10px black;
+}
+h4{
+    color:rgb(2, 95, 95);
+    font-family: 'Hurricane', cursive;
+    background:linear-gradient(rgb(3, 75, 57), yellow,rgb(3, 75, 57));
+    padding:10px;
+    width:100%;
+    text-align :center;
+    box-shadow:0 0 15px black;
+    
+    
+}
+/* style sidebar*/
+.nav li{
+    list-style:none;
+    text-align:center;
+    padding:5px;
+    font-weight:bold;
+    
+
+}
+/*style des liens */
+a{
+    color:rgb(231, 159, 228);
+    padding:10px;
+    text-shadow:10px 10px 10px rgb(78, 2, 2);
+    width:120px;
+  }
+   
+a:hover{
+    color:red;
+    background:white;
+    width:100px;
+    border-radius:15px;
+    
+}
+
+/*style cu content*/
+.content{
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    
+
+}
+.A-respiration{
+    border:solid 2px grey; 
+}
+/*style section*/
+section{
+    margin:15px 0;
+    max-width:700px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+/*style article*/
+article{
+    padding:10Px 0;
+    font-size:1.2rem;
+    text-align:justify;
+}
+/* style des images*/
+img{
+    box-shadow:0 0 20px rgb(50, 50, 66);
+    border-radius:10px;
+    margin:10px 0;
+
+    
+}
+/*style de l'article "respiration" */
+
+.D-respiration{
+    background:linear-gradient(45deg, rgb(230, 91, 240) ,white);
+    color:rgb(84, 74, 87);
+    padding:10px;
+    
+}
+/*style article le gout*/
+.def-legout{
+    background:linear-gradient(45deg, rgb(2, 243, 62) ,white);
+    color:rgb(115, 74, 124);
+    padding:10px; 
+}
+/*style article l'ouie*/
+.louie{
+    background:linear-gradient(45deg, rgb(243, 133, 8) ,white);
+    color:rgb(70, 62, 71);
+    padding:10px; 
+}
+/*style article l'odorat*/
+.lodorat{
+    background:linear-gradient(45deg, rgb(228, 203, 206) ,rgb(238, 60, 60));
+    color:rgb(70, 62, 71);
+    padding:10px;   
+}
+/*style article la vue*/
+.lavue{
+    background:linear-gradient(45deg, rgb(27, 26, 26) ,rgb(170, 172, 245));
+    color:rgb(242, 193, 248);
+    padding:10px;  
+}
+/*style article le toucher*/
+.letoucher{
+    background:linear-gradient(45deg, rgb(241, 245, 5) ,rgb(88, 213, 245));
+    color:rgb(79, 33, 85);
+    padding:10px;  
+}
+/*style article lesix-sens*/
+.lesix-sens{
+    background:linear-gradient(45deg, rgb(152, 238, 81) ,rgb(2, 44, 54));
+    color:rgb(240, 232, 241);
+    padding:10px;    
+}
+/*style article le-sens-sommeil*/
+.le-sens-sommeil{
+    background:linear-gradient(45deg, rgb(121, 113, 243) ,rgb(222, 229, 231));
+    color:rgb(59, 62, 68);
+    padding:10px;    
+}
+
+
+/*style de  l'element aside*/
+.navigation{
+    list-style:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items :center;
+    background:linear-gradient(90deg,rgb(1, 1, 36) ,grey, white);
+    padding:20px;
+    width:700px;
+    height:20rem;
+    
+}
+/*style des element aside*/
+.navigation li{
+    border:solid 2px transparent;
+    padding:5px;
+    margin:5px;
+    width:25rem;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:10px 10px 20px white
+
+}
+/*style items navigation*/
+.navigation a{
+    color:rgb(54, 5, 99)
+}
+/*li hover */
+.navigation a:hover{
+    color:rgb(240, 6, 6);
+    background:white;
+    border-radius:10px;
+    
+}
+/*style du footer*/
+.footer{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(90deg,white,rgb(231, 125, 125),black,rgb(190, 90, 90),white);
+
+}
+/*style items footer*/
+.footer ul{
+    list-style:none;
+    text-align:center;
+} 
+.footer li{
+    padding:5px;
+}
+.Droits{
+    color:yellow;
+}
+
+@media screen and (min-width:770px){
+
+    /* @ style header*/
+   .header{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    align-content:center;
+   }
+
+   /*@ dispotion du titre de la page*/
+   .title{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    white-space:nowrap;
+   }
+
+   /*@dispositon de la barre de navigation*/
+   .sommaire{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items :center;
+
+   }
+
+   /*@disposition du footer*/
+   .footer{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+   }
+
+   /*@ disposition des logo R.S */   .r-sociaux img{
+    display:block;
+    
+   }
+   .navfooter a{
+    color:rgb(38, 3, 71);
+    font-weight:bold;
+   }
+  /*@ color doits*/
+  .Droits{
+    color:rgb(243, 243, 177);
+    margin-top:10rem;
+
+  }
+  
+}
+@media screen and (min-width:1040px){
+    section{
+        margin:20px 0;
+        max-width:900px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        
+    } 
+    article {
+        font-size:1.2rem;
+        text-align:justify;
+        height:340px;
+        margin:10px;
+        border-radius:10px;
+    }
+
+   img{
+    flex:none;
+   }
+   .R{
+    margin-right:10px;
+   }
+   .G{
+    margin-left:10px;
+   }
+   .louie{
+    height:380px;
+    padding:10px;
+    align-items:stretch;
+   }
+   .lodorat{
+    height:380px;
+    align-items:stretch;
+   }
+   .lavue{
+    height:380px;
+    align-items:stretch;
+   }
+   .letoucher{
+    height:380px;
+    align-items:stretch;
+   }
+   .lesix-sens{
+    height:380px;
+    align-items:stretch;
+   }
+   .le-sens-sommeil{
+    height:380px;
+    align-items:stretch;
+   }
+   
+   .aside{
+    width:900px;
+   }
+}
+
+
+
+
+
