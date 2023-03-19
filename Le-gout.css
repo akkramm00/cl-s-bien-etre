@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Great+Vibes&family=Merriweather&family=Nosifer&family=Redressed&family=Vast+Shadow&display=swap');
+.H-navbar{
+    background:rgba(4, 2, 12, 0.55);
+    font-family: 'Vast Shadow', cursive;
+    box-shadow:1px 1px 1px rgba(255,255,255,.54);
+    z-index:50;
+
+}
+.merriweather{
+    font-family:'Merriweather',serif;
+}
+.gravitas{
+    font-family:'Vast Shadow', cursive;
+}
+.Nosifer{
+    font-family: 'Nosifer', cursive;
+}
+.vast-shadow{
+    font-family: 'Vast Shadow', cursive;
+}
+
+.Great-vibes{
+    font-family: 'Great Vibes', cursive;
+}
+
+.redressed{
+    font-family:'redressed',cursive;
+}
+
+.btn-order{
+    color:var(--bs-red);
+    border:1px solid var(--bs-red);
+    transition:0.5s;
+
+}
+.btn-order:hover,
+.btn-order:active{
+    color:white;
+    background-color:var(--bs-red);
+}
+.H-navbar .nav-link{
+border-bottom:2px solid transparent;
+transition:padding-bottom 0.4s ease-in-out,border-color 0.3s ease;
+}
+.H-navbar .nav-link:hover{
+    padding-bottom:20px;
+    border-bottom-color:var(--bs-red);
+}
+.nav-tabs{
+    box-shadow: none;
+}
+
+.card-title{
+    color:red;
+    font-size:30px;
+}
+.bgcard{
+    background:rgba(0, 0, 0, .55)
+}
+
+
+.banner{
+    height:800px;
+    background:linear-gradient(rgba(0, 0, 0,.5),rgba(0, 0, 0,.5)),url(https://media.istockphoto.com/id/182061990/fr/photo/plateau-de-fromages-et-vin-rouge.jpg?s=612x612&w=0&k=20&c=zTQvcrtdXqsRp8p-6DGzHmDis-Wi_VSr-YUmq_NhX0s=) center center fixed no-repeat;
+    background-size:cover;
+}
+.di-flex{
+    height:460px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+    margin:auto;
+   
+}
+.H-menu{
+    height:1800px;
+    background:linear-gradient(rgba(0, 0, 0,.5),rgba(0, 0, 0,.5)),url(https://media.istockphoto.com/id/1296203912/fr/photo/jus-dorange-fra%C3%AEchement-press%C3%A9-doranges-bio-non-trait%C3%A9es-du-propre-jardin-avec-b%C3%A2tons-de.jpg?s=612x612&w=0&k=20&c=_-xb5YzPpYvBeTZ_ZyoX1FwE_QU0QyqZ_CgNJzoBQww=) center center fixed no-repeat;
+    background-size:cover;
+}
+.order-form{
+    height:800px;
+    background:linear-gradient(rgba(0, 0, 0,.5),rgba(0, 0, 0,.5)),url(https://media.istockphoto.com/id/1200949190/fr/photo/d%C3%A9gustation-de-fromage-%C3%A9cossais-original-et-whisky-assiette-avec-fromages-%C3%A9cossais-et-vari%C3%A9t%C3%A9.jpg?s=612x612&w=0&k=20&c=xHMpz6ZJCGSuwCGpAfoeZjmCVcmZ5kPCahE7PElW-J4=) center center fixed no-repeat;
+    background-size:cover;  
+}
+
+.btncolor:hover{
+border:solid 2px white;
+background:rgb(24, 211, 211);
+padding:10px;
+}
+.h-footer{
+    height:100px;
+}
