@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&family=Redressed&display=swap');
+
+
+.Redressed{
+    font-family: 'Redressed', cursive;
+}
+.merriweather{
+    font-family: 'Merriweather', serif;
+}
+.Greatvibes{
+    font-family: 'Great Vibes', cursive;
+}
+.H-navbar{
+    background:rgba(0, 0, 0, 0.70);
+    padding:2rem;
+    box-shadow:1px 1px 1px rgba(255, 255, 255, .20);
+    position:fixed;
+    z-index:50;
+}
+
+.text-shadow{
+    text-shadow:-2px 2px 2px rgb(54, 235, 38);
+    color:rgb(70, 70, 2);
+}
+.circle{
+    border-radius:50%;
+    box-shadow:0px 0px 15px black;
+}
+
+.H-navbar .nav-link{
+    border-bottom:2px solid  transparent;
+    transition:padding-bottom 0.4s ease-in-out,border-color 0.3s ease;
+}
+.H-navbar .nav-link:hover{
+    padding-bottom:20px;
+    border-bottom-color:var(--bs-blue);
+}
+.banner{
+    height:1000px;
+    background-image:url(https://media.istockphoto.com/id/1292521050/fr/vectoriel/fond-fractal-abstrait-avec-le-profil-humain.jpg?s=612x612&w=0&k=20&c=i9rVLXIe4kIYHKzQFOp9S0yvlf18o3E7zwhTjTHnhL0=);
+    background-size:cover;
+
+}
+.btn-order{
+    color:var(--bs-teal);
+    border:1px solid rgb(5, 109, 18);
+    transition:0.5s;
+
+}
+.btn-order:hover,
+.btn-order:active{
+    color:white;
+    background-color:rgb(152, 23, 226);
+
+    }

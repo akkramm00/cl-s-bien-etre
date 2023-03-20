@@ -54,10 +54,6 @@ transition:padding-bottom 0.4s ease-in-out,border-color 0.3s ease;
     color:red;
     font-size:30px;
 }
-.bgcard{
-    background:rgba(0, 0, 0, .55)
-}
-
 
 .banner{
     height:800px;
